@@ -1,0 +1,77 @@
+.all-events {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-event {
+    margin: 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(212, 209, 209);
+    /* box-shadow: 0 7px 29px 0 rgb(216, 213, 213); */
+    /* max-height: 320px; */
+    max-width: 300px;
+}
+
+.single-event img {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.event-title {
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 5px 0;
+    color: #000000;
+    line-height: 20px;
+}
+
+.date {
+    color: #F16621
+}
+
+.plateform {}
+
+.devider {}
+
+.event-data {
+    padding: 0 10px;
+}
+
+.register-button {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.register-button button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(27, 110, 27);
+    color: green;
+    ;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.register-button button:hover {
+    background-color: rgba(4, 114, 4, 0.822);
+    color: white;
+}
+
+.empty-msg{
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .all-events {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        
+    }
+}
